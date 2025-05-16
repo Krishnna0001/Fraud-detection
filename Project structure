@@ -1,0 +1,14 @@
+credit_card_fraud_detection/
+│
+├── app/
+│   ├── __init__.py
+│   ├── model.py               # Model training and prediction
+│   ├── guard.py               # Real-time transaction guard
+│   └── gui.py                 # GUI application using Tkinter
+│
+├── data/
+│   └── creditcard.csv         # Dataset (from Kaggle)
+│
+├── requirements.txt
+├── README.md
+└── main.py                    # Entry point
